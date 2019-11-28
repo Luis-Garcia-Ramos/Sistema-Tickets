@@ -1,0 +1,37 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Montserrat';
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: -875px;
+  z-index: 2;
+}
+
+.principal{
+  z-index: 1;
+}
+
+hr.red {
+  color: #D0021B !important;
+}
+
+.si{
+  color: #a22244;
+}
+
+.no{
+  color: #9E9E9E;
+}
+
+.interruptor{
+  font-size: 20px;
+}
+
+.texto{
+  font-weight: bold;
+  font-size: 25px;
+}

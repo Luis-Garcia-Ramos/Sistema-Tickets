@@ -1,0 +1,15 @@
+{
+  "tickets" : [
+      {
+          "id"      : 10008000,
+          "titulo"  : "problemas con inicio de sesión",
+          "atendio" : "Juan Pérez"
+      },
+
+      {
+          "id"      : 356890990,
+          "titulo"  : "dudas lista prelación",
+          "atendio" : "Ana Gómez"
+      }
+  ]
+}
