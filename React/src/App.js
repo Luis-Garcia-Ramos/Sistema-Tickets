@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import axios from 'axios';
-
+//import {Planets} from 'react-preloaders';
 import Error from './components/Error';
 import Boletos from './components/Boletos';
 import BoletosDetalles from './components/BoletosDetalles';
@@ -63,17 +63,17 @@ function App()
 		componente = <Error mensaje = {"Error de conexión con el servidor"}/>
 	else
 	{
-		/*
-		if(loading===true)
-			componente =    <Planets customLoading={loading}/>
+		
+		/*if(loading===true)
+			componente = <Planets customLoading={loading} time={0} background="#808080" color="#560319"/>
 		else*/
 			componente = <Boletos boletos = {boletos} codigo={codigo} mensaje ={mensaje}/>
 	}
 	
 	return (
 		<Router>
-			<div className="principal ta__center">
 			<Header/>
+			<div className="principal">
 			<Switch>
 				<Route exact path="/tickets"
 				//datos a un componente
@@ -103,9 +103,8 @@ function App()
 					}}
 				/>
 			</Switch>
-
-			<Footer/>
 			</div>
+			<Footer/>
 		</Router>
 	);
 }

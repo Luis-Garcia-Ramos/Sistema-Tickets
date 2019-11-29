@@ -17,7 +17,7 @@ const Footer = () => {
             <div>
             <footer className="main-footer footer">
                 <div className="list-info">
-                    <div className="container" style={estilo1}>
+                    <div className="container-fluid" style={estilo1}>
                         <div className="row">
                             <div className="col-sm-3">
                                 <img src="https://framework-gb.cdn.gob.mx/landing/img/logofooter.svg" href="/" alt="logo gobierno de méxico" style={estilo2}/>

@@ -42,14 +42,17 @@ function Header()
         </div>
     </nav>
 
-        <nav>
-   
-            <NavLink to="/tickets" className="">Inicio</NavLink>
-            <NavLink to="/tickets">Lista de Tickets</NavLink>
-            <NavLink to="/tickets">Lista de Evaluaciones</NavLink>
-        </nav>
-        
-        <br/><br/><br/>
+        <nav className="navbar navbar-default">
+            <div className="container">
+                <ul className="nav navbar-nav">
+                   <li><NavLink to="/tickets" className="">Inicio</NavLink></li>
+                   <li><NavLink to="/tickets" className="">Lista de Tickets</NavLink></li>
+                   <li><NavLink to="/tickets" className="">Lista de Evaluaciones</NavLink></li>
+                </ul>
+            </div>
+            </nav>
+        <br/>
+
     </Fragment>
 
     )

@@ -104,14 +104,12 @@ function BoletosEvaluacion({history, id, actualizarTickets})
 
     return(
         <Fragment>
-            
             <form>
                 <div className="container">
                 <span className="texto text-center">Sección de evaluación</span>
                 <hr className="red"/>
                 {(error) ? <Error mensaje='Todos los campos son obligatorios' /> : null}
                 <div className="interruptor">
-                    <br/>
                     <span className="texto">¿La pregunta que usted realizó al sistema de tickets es la registrada?</span>
                     <br/>
                     <span className="texto no">No&nbsp;</span>
@@ -147,7 +145,6 @@ function BoletosEvaluacion({history, id, actualizarTickets})
                     <option value="3">Suficiente</option>
                     <option value="4">Buena</option>
                     <option value="5">Excelente</option>
-                    {/*po*/}
                 </select>
                 <br/><br/>
 

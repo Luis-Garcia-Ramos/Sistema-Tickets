@@ -7,12 +7,16 @@ html {
 .footer{
   position: absolute;
   width: 100%;
-  bottom: -875px;
-  z-index: 2;
+  /*bottom: -875px;*/
+}
+
+.navegacion{
+  background: #9E9E9E !important;
 }
 
 .principal{
-  z-index: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 hr.red {
